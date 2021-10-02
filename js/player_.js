@@ -41,8 +41,8 @@ function audioErr() {
         rem.errCount = 0;
     } else {
         rem.errCount++;     // 记录连续播放失败的歌曲数目
-        layer.msg('当前歌曲播放失败，自动播放下一首');
-        nextMusic();    // 切换下一首歌
+        layer.msg('当前歌曲播放失败');
+        // nextMusic();    // 切换下一首歌
     } 
 }
 

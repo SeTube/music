@@ -270,7 +270,7 @@ $(function(){
     
     // 图片加载失败处理
     $('img').error(function(){
-        $(this).attr('src', '//cdn.jsdelivr.net/gh/saigaocy/music///cdn.jsdelivr.net/gh/saigaocy/music/images/player_cover.png');
+        $(this).attr('src', '//cdn.jsdelivr.net/gh/SeTube/music/images/player_cover.png');
     });
     
     // 初始化播放列表
