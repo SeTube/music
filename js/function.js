@@ -324,6 +324,10 @@ function searchBox() {
     '    </div>' + 
     '    <div class="radio-group" id="music-source">' + 
     '       <label><input type="radio" name="source" value="netease" checked=""> 网易云</label>' + 
+    '       <label><input type="radio" name="source" value="tencent"> QQ</label>' + 
+    '       <label><input type="radio" name="source" value="xiami"> 虾米</label>' + 
+    '       <label><input type="radio" name="source" value="kugou"> 酷狗</label>' + 
+    '       <label><input type="radio" name="source" value="baidu"> 百度</label>' +
     '   </div>' + 
     '</div></form>';
     layer.open({
