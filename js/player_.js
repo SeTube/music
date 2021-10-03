@@ -37,11 +37,11 @@ function audioErr() {
     if(rem.playlist === undefined) return true;
     
     if(rem.errCount > 10) { // 连续播放失败的歌曲过多
-        layer.msg('似乎出了点问题~播放已停止');
+        layer.msg('(°ー°〃)似乎出了点问题~播放已停止');
         rem.errCount = 0;
     } else {
         rem.errCount++;     // 记录连续播放失败的歌曲数目
-        layer.msg('当前歌曲播放失败');
+        layer.msg('这首音乐需要付费~播放已停止( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃');
         // nextMusic();    // 切换下一首歌
     } 
 }
